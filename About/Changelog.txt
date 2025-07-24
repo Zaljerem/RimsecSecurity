@@ -1,0 +1,5 @@
+1.0.0 - 12/10/2024 - updated from 1.4 to 1.5
+
+1.0.0 - 4/20/2025 - updated to 1.6
+
+1.0.1 - 7/9/2025 - fix to SOS2 compat

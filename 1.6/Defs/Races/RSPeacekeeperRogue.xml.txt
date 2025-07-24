@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  
+  <AlienRace.ThingDef_AlienRace ParentName="RSPeacekeeperDefenderBase" >
+    <defName>RSPeacekeeperDefenderRogue</defName>
+    <label>Rogue Defender</label>
+    <description>A rogue variant of the Defender, usually illegally-modified by various factions. It features faster speed, and an explosive payload.</description>
+    <alienRace>
+      <generalSettings>
+ <alienPartGenerator>
+	 <headTypes Inherit="false">         
+            <li>RS_DefenderRogueHead</li>
+          </headTypes>
+ </alienPartGenerator>
+
+        <forcedRaceTraitEntries>
+	<li>
+    <options>
+      <li>
+        <defName Degree="0">RSTraitRogue</defName>
+      </li>      
+    </options>   
+    <chance>100</chance>
+  </li>         
+        </forcedRaceTraitEntries>
+      </generalSettings>
+      <graphicPaths>
+	<skinShader>Cutout</skinShader>         
+          <body>Races/Body/Defender/Defender_Security/</body>       
+      </graphicPaths>
+    </alienRace>
+    <race>
+<nameGenerator>RSPeacekeeperRogueDefenderNameGen</nameGenerator>
+    </race>
+    <statBases>
+    </statBases>
+<modExtensions Inherit="false">
+      <li Class="RimsecSecurity.RSPeacekeeperModExt">
+        <stationDef>RSChargeStation</stationDef>
+        <stationZOffset>0</stationZOffset>
+        <gunDef>RSWeaponRDLG</gunDef>
+        <batterySeverity>0.1</batterySeverity>
+        <meleeSkill>7</meleeSkill>
+        <shootingSkill>9</shootingSkill>
+      </li>
+    </modExtensions>
+  </AlienRace.ThingDef_AlienRace>
+
+ <AlienRace.ThingDef_AlienRace ParentName="RSPeacekeeperEnforcerBase" >
+    <defName>RSPeacekeeperEnforcerRogue</defName>
+    <label>Rogue Enforcer</label>
+    <description>A rogue variant of the Enforcer, usually illegally-modified by various factions. It features faster speed.</description>
+    <alienRace>
+      <generalSettings>
+<alienPartGenerator>
+<headTypes Inherit="false">         
+            <li>RS_EnforcerRogueHead</li>
+          </headTypes>
+ </alienPartGenerator>
+        <forcedRaceTraitEntries>
+         	<li>
+    <options>
+      <li>
+        <defName Degree="0">RSTraitRogue</defName>
+      </li>      
+    </options>   
+    <chance>100</chance>
+  </li>  
+        </forcedRaceTraitEntries>
+      </generalSettings>
+      <graphicPaths>         
+          <body>Races/Body/Enforcer/Enforcer_Security/</body>      
+      </graphicPaths>
+    </alienRace>
+    <race>
+<nameGenerator>RSPeacekeeperRogueEnforcerNameGen</nameGenerator>
+    </race>
+    <statBases>
+      
+    </statBases>
+ <modExtensions Inherit="false">
+      <li Class="RimsecSecurity.RSPeacekeeperModExt">
+        <stationDef>RSChargeStation</stationDef>
+        <stationZOffset>0</stationZOffset>
+        <gunDef>RSWeaponREHG</gunDef>
+        <batterySeverity>0.2</batterySeverity>
+        <meleeSkill>11</meleeSkill>
+        <shootingSkill>13</shootingSkill>
+      </li>
+    </modExtensions>
+  </AlienRace.ThingDef_AlienRace>
+
+ <AlienRace.ThingDef_AlienRace ParentName="RSPeacekeeperSentinelBase" >
+    <defName>RSPeacekeeperSentinelRogue</defName>
+    <label>Rogue Sentinel</label>
+    <description>A rogue variant of the Sentinel, usually illegally-modified by various factions. It features higher speed.</description>
+    <alienRace>
+      <generalSettings>
+<alienPartGenerator>
+<headTypes Inherit="false">         
+            <li>RS_SentinelRogueHead</li>
+          </headTypes>
+ </alienPartGenerator>
+        <forcedRaceTraitEntries>
+         <li>
+    <options>
+      <li>
+        <defName Degree="0">RSTraitRogue</defName>
+      </li>      
+    </options>   
+    <chance>100</chance>
+  </li> 
+        </forcedRaceTraitEntries>
+      </generalSettings>
+      <graphicPaths>       
+        <body>Races/Body/Sentinel/Sentinel_Security/</body>         
+      </graphicPaths>
+    </alienRace>
+    <race>
+<nameGenerator>RSPeacekeeperRogueSentinelNameGen</nameGenerator>
+    </race>
+    <statBases>
+    </statBases>
+  <modExtensions Inherit="false">
+      <li Class="RimsecSecurity.RSPeacekeeperModExt">
+        <stationDef>RSChargeStation</stationDef>
+        <stationZOffset>0</stationZOffset>
+        <gunDef>RSWeaponRSHAG</gunDef>
+        <batterySeverity>0.3</batterySeverity>
+        <meleeSkill>14</meleeSkill>
+        <shootingSkill>16</shootingSkill>
+      </li>
+    </modExtensions>
+  </AlienRace.ThingDef_AlienRace>
+
+
+
+</Defs>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <TraitDef>
+    <defName>RSTraitRogue</defName>
+    <commonality>0.001</commonality>
+    <degreeDatas>
+      <li>
+        <label>Rogue</label>
+        <description>{PAWN_nameDef} is a rogue variant, it features higher armour and speed compared to other variants.</description>
+        <statOffsets>
+          <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
+          <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
+          <MoveSpeed>1.5</MoveSpeed>
+        </statOffsets>
+        <statFactors>
+        </statFactors>
+      </li>
+    </degreeDatas>
+  </TraitDef> 
+
+</Defs>

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+<ThinkTreeDef>
+  <defName>RSPeacekeeper</defName>
+  <thinkRoot Class="ThinkNode_Priority">
+    <subNodes>
+      <!-- Lie down if required -->
+      <li Class="ThinkNode_ConditionalMustKeepLyingDown">
+        <subNodes>
+          <li Class="JobGiver_KeepLyingDown" />
+        </subNodes>
+      </li>
+
+      <!-- React to immediate threats -->
+      <li Class="JobGiver_ReactToCloseMeleeThreat" />
+
+      <!-- Perform queued jobs -->
+      <li Class="ThinkNode_QueuedJob" />
+
+      <!-- Recharge energy if necessary -->
+      <li Class="RimsecSecurity.JobGiver_Recharge">
+        <minEnergyRechargePercentage>40</minEnergyRechargePercentage>
+        <minEnergyPowercellPercentage>40</minEnergyPowercellPercentage>
+      </li>
+
+      <!-- Follow lord duties (if any) -->
+      <li Class="ThinkNode_Subtree">
+        <treeDef>LordDuty</treeDef>
+      </li>
+
+      <!-- Perform assigned guard or security duties -->
+      <li Class="ThinkNode_SubtreesByTag">
+        <insertTag>GuardsForMeHook</insertTag>
+      </li>
+
+      <!-- Recharge fully if necessary -->
+      <li Class="RimsecSecurity.JobGiver_Recharge">
+        <minEnergyRechargePercentage>100</minEnergyRechargePercentage>
+        <minEnergyPowercellPercentage>40</minEnergyPowercellPercentage>
+      </li>
+
+      <!-- Idle behavior -->
+      <li Class="JobGiver_Idle" />
+    </subNodes>
+  </thinkRoot>
+</ThinkTreeDef>
+
+  
+</Defs>

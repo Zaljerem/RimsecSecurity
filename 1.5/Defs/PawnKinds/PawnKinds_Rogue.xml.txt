@@ -1,0 +1,115 @@
+<Defs>
+
+<PawnKindDef Name="RSPeacekeeperDefenderRoguePawnKindBase" Abstract="True">
+    <isFighter>true</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <defaultFactionType>PlayerTribe</defaultFactionType>
+    <minGenerationAge>0</minGenerationAge>
+    <maxGenerationAge>5000</maxGenerationAge>
+    <chemicalAddictionChance>0.00</chemicalAddictionChance>
+    <apparelTags>
+    </apparelTags>
+    <weaponTags>
+      <li>RSRDLG20</li>
+    </weaponTags>
+    <weaponMoney>2000~5000</weaponMoney>
+    <apparelMoney>1000~1500</apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+
+
+ <PawnKindDef Parent="RSPeacekeeperDefenderRoguePawnKindBase">
+		<defName>RSPeacekeeperDefenderRoguePawnKind</defName>
+	<label>defender</label>
+    <race>RSPeacekeeperDefenderRogue</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>RSPeacekeeperBackstoryChildDefender</li>
+          <li>RSPeacekeeperAdultRogueBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <combatPower>70</combatPower>
+    <initialWillRange>0~1</initialWillRange>
+    <initialResistanceRange>10~17</initialResistanceRange>
+  </PawnKindDef>
+
+
+ <PawnKindDef Name="RSPeacekeeperEnforcerRoguePawnKindBase" Abstract="True">
+    <isFighter>true</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <defaultFactionType>PlayerTribe</defaultFactionType>
+    <minGenerationAge>0</minGenerationAge>
+    <maxGenerationAge>5000</maxGenerationAge>
+    <chemicalAddictionChance>0.00</chemicalAddictionChance>
+    <apparelTags>
+    </apparelTags>
+    <weaponTags>
+      <li>RSRELG22</li>
+    </weaponTags>
+    <weaponMoney>2000~5000</weaponMoney>
+    <apparelMoney>1000~1500</apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+
+
+
+ <PawnKindDef Parent="RSPeacekeeperEnforcerRoguePawnKindBase">
+		<defName>RSPeacekeeperEnforcerRoguePawnKind</defName>
+<label>enforcer</label>
+    <race>RSPeacekeeperEnforcerRogue</race>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>RSPeacekeeperBackstoryChildEnforcer</li>
+           <li>RSPeacekeeperAdultRogueBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+    <combatPower>70</combatPower>
+    <initialWillRange>0~1</initialWillRange>
+    <initialResistanceRange>10~17</initialResistanceRange>
+  </PawnKindDef>
+
+ <PawnKindDef Name="RSPeacekeeperSentinelRoguePawnKindBase" Abstract="True">
+    <isFighter>true</isFighter>
+    <apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+    <forceNormalGearQuality>true</forceNormalGearQuality>
+    <defaultFactionType>PlayerTribe</defaultFactionType>
+    <minGenerationAge>0</minGenerationAge>
+    <maxGenerationAge>5000</maxGenerationAge>
+    <chemicalAddictionChance>0.00</chemicalAddictionChance>
+    <apparelTags>
+    </apparelTags>
+    <weaponTags>
+      <li>RSRSHAG1</li>
+    </weaponTags>
+    <weaponMoney>2000~5000</weaponMoney>
+    <apparelMoney>1000~1500</apparelMoney>
+    <backstoryCryptosleepCommonality>0</backstoryCryptosleepCommonality>
+  </PawnKindDef>
+
+
+
+ <PawnKindDef Parent="RSPeacekeeperSentinelRoguePawnKindBase">
+    <defName>RSPeacekeeperSentinelRoguePawnKind</defName>
+<label>sentinel</label>
+    <race>RSPeacekeeperSentinelRogue</race>
+    <backstoryFiltersOverride>
+      <li>
+        <categories>
+          <li>RSPeacekeeperBackstoryChildSentinel</li>
+           <li>RSPeacekeeperAdultRogueBackstory</li>
+        </categories>
+      </li>
+    </backstoryFiltersOverride> 
+  <combatPower>70</combatPower>
+  <initialWillRange>0~1</initialWillRange>
+  <initialResistanceRange>10~17</initialResistanceRange>
+  </PawnKindDef>
+
+
+</Defs>

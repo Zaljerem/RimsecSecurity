@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<RS_ModName>Rimsec Security</RS_ModName>
+
+	<RS_RequireRestart>All changes (except maint. station fuel consumption) require a restart to take effect.</RS_RequireRestart>
+	<RS_HideFromColonistBar>Hide peacekeeper robots from colonist bar</RS_HideFromColonistBar>
+	<RS_CountRobotsForPop>Count peacekeeper robots towards colonist population</RS_CountRobotsForPop>
+	<RS_AllowClothes>Allow robots to wear clothes? (clothes may not completely fit but that won't be addressed)</RS_AllowClothes>
+	<RS_MaintStationFuelConsump>Maintenance station: Component fuel consumption rate per day: </RS_MaintStationFuelConsump>
+	<RS_TradeShipIntervalDays>Interval of days between SRS trade ships (+2 days on which the event can happen): </RS_TradeShipIntervalDays>
+	<RS_RemoveDiversityImpact>Remove ideology diversity impact</RS_RemoveDiversityImpact>
+
+	<RS_Spawn>Spawn</RS_Spawn>
+	<RS_SpawnRandomRobot>Spawn random test robot at random colonist location</RS_SpawnRandomRobot>
+	<RS_SpawnDefenderRobot>Spawn security defender at random colonist location</RS_SpawnDefenderRobot>
+
+	<RS_RogueSpawn>Spawn Rogue</RS_RogueSpawn>
+	<RS_SpawnRogueRobot>Spawn random rogue robot at random colonist location</RS_SpawnRogueRobot>
+
+	<RS_RogueCharger>Use rogue color for charger</RS_RogueCharger>
+
+</LanguageData>

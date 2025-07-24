@@ -33,90 +33,225 @@
           </colorChannels>
         </alienPartGenerator>
         <additionalTraits>0~0</additionalTraits>
-        <!--<forcedRaceTraitEntries>
-          <li>
-            <defName>RSTraitRobot</defName>
-          </li>
-          <li>
-            <defName>RSTraitValuable</defName>
-          </li>
-        </forcedRaceTraitEntries>-->
-        <disallowedTraits>
-          <!--<li>
-						<defName>DrugDesire</defName>
-					</li>
-					<li>
-						<defName>NaturalMood</defName>
-					</li>
-					<li>
-						<defName>Nerves</defName>
-					</li>
-					<li>
-						<defName>Neurotic</defName>
-					</li>
-					<li>
-						<defName>PsychicSensitivity</defName>
-					</li>
-					<li>
-						<defName>Cannibal</defName>
-					</li>
-					<li>
-						<defName>TooSmart</defName>
-					</li>
-					<li>
-						<defName>Transhumanist</defName>
-					</li>
-					<li>
-						<defName>BodyPurist</defName>
-					</li>
-					<li>
-						<defName>Greedy</defName>
-					</li>
-					<li>
-						<defName>Jealous</defName>
-					</li>
-					<li>
-						<defName>Nudist</defName>
-					</li>
-					<li>
-						<defName>DislikesMen</defName>
-					</li>
-					<li>
-						<defName>DislikesWomen</defName>
-					</li>
-					<li>
-						<defName>AnnoyingVoice</defName>
-					</li>
-					<li>
-						<defName>CreepyBreathing</defName>
-					</li>
-					<li>
-						<defName>Pyromaniac</defName>
-					</li>
-					<li>
-						<defName>Wimp</defName>
-					</li>
-					<li>
-						<defName>Gourmand</defName>
-					</li>
-					<li>
+        <forcedRaceTraitEntries>
+ <li>
+    <options>
+      <li>
+        <defName Degree="0">RSTraitRobot</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+<li>
+    <options>
+      <li>
+        <defName>RSTraitValuable</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>        
+        </forcedRaceTraitEntries>
+        <disallowedTraits>      
+		 <li>
+    <options>
+      <li>
+        <defName>DrugDesire</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>NaturalMood</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>Nerves</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>Neurotic</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>Greedy</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>BodyPurist</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>Transhumanist</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>TooSmart</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>Cannibal</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>PsychicSensitivity</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>CreepyBreathing</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>AnnoyingVoice</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>DislikesWomen</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>DislikesMen</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>Nudist</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>Jealous</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li> 
+ <li>
+    <options>
+      <li>
+        <defName>TorturedArtist</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>Asexual</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>Bisexual</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>Gay</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>Brawler</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>Gourmand</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>Wimp</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>
+ <li>
+    <options>
+      <li>
+        <defName>Pyromaniac</defName>
+      </li>     
+    </options>   
+    <chance>100</chance>
+  </li>				
+					
+					
+					
+					<!--<li>
 						<defName>Xenophobia</defName>
-					</li>
-					<li>
-						<defName>Brawler</defName>
-					</li>
-					<li>
-						<defName>Gay</defName>
-					</li>
-					<li>
-						<defName>Bisexual</defName>
-					</li>
-					<li>
-						<defName>Asexual</defName>
-					</li>
-					<li>
-						<defName>TorturedArtist</defName>
 					</li>-->
+					
+					
         </disallowedTraits>
       </generalSettings>
       <styleSettings>
@@ -168,7 +303,56 @@
         </apparelList>
         <whiteApparelList>
         </whiteApparelList>
+
+<blackXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
+  <li>Dirtmole</li>
+  <li>Genie</li>
+<li>Hussar</li>
+<li>Sanguophage</li>
+<li>Neanderthal</li>
+<li>Pigskin</li>
+<li>Impid</li>
+<li>Waster</li>
+<li>Yttakin</li>
+<li>Highmate</li>
+</blackXenotypeList>
+
+ <blackGeneList>
+          <li MayRequire="Ludeon.RimWorld.Biotech">Brow_Heavy</li>
+          <li MayRequire="Ludeon.RimWorld.Biotech">FacialRidges</li>
+        </blackGeneList>
+        <blackGeneTags>
+          <li>SkinColor</li>
+          <li>HairColor</li>
+          <li>EyeColor</li>
+          <li>BodyType</li>
+          <li>Ears</li>
+          <li>Nose</li>
+          <li>Jaw</li>
+          <li>Head</li>
+          <li>Headbone</li>
+          <li>HairStyle</li>
+          <li>BeardStyle</li>
+          <li>SkinColorOverride</li>
+          <li>Fur</li>
+          <li>Tail</li>
+        </blackGeneTags>
+        <blackEndoCategories>
+          <li>Melanin</li>
+          <li>HairColor</li>
+          <li>Ears</li>
+          <li>Nose</li>
+          <li>Jaw</li>
+          <li>Head</li>
+          <li>BodyType</li>
+        </blackEndoCategories>
+
       </raceRestriction>
+<compatibility>
+<isFlesh>false</isFlesh>
+<isSentient>true</isSentient>
+<hasBlood>true</hasBlood>
+</compatibility>
     </alienRace>
     <!--<inspectorTabs/>-->
     <statBases>
@@ -197,15 +381,17 @@
       <lifeExpectancy>200</lifeExpectancy>
       <leatherDef>Plasteel</leatherDef>
       <bloodDef>RSFilthCoolant</bloodDef>
+      <bloodSmearDef>RSFilthCoolant</bloodSmearDef>
       <body>RSPeacekeeperBody</body>
       <nameGenerator>RSPeacekeeperNameGen</nameGenerator>
       <useMeatFrom>Mech_Scyther</useMeatFrom>
       <foodType>None</foodType>
       <needsRest>true</needsRest>
-      <hasGenders>false</hasGenders>
-      <gestationPeriodDays>45</gestationPeriodDays>
+      <hasGenders>true</hasGenders>
+      <gestationPeriodDays>20</gestationPeriodDays>
       <canBePredatorPrey>false</canBePredatorPrey>
       <renderTree>Humanlike</renderTree>
+	<canBecomeShambler>false</canBecomeShambler>
       <litterSizeCurve>
         <points>
           <li>(0.5, 0)</li>
@@ -224,7 +410,7 @@
         </li>
       </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
-      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding_Generic</soundMeleeHitBuilding>
       <soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
       <specialShadowData>
         <volume>(0.3, 0.8, 0.4)</volume>

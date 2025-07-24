@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs> 
+
+ <AlienRace.AlienBackstoryDef>
+    <defName>RSPeacekeeperAdultRogueBackstory</defName>
+    <title>Rogue variant</title>
+    <titleShort>Rogue</titleShort>
+    <description>This particular unit has been illegally modified beyond SRS norms, slightly improving its combat performance.</description>
+    <slot>Adulthood</slot>
+    <spawnCategories>
+      <li>RSPeacekeeperAdultRogueBackstory</li>
+    </spawnCategories>
+    <bodyTypeGlobal>Male</bodyTypeGlobal>
+    <skillGains>
+      <Shooting>1</Shooting>
+      <Melee>1</Melee>
+    </skillGains>
+  </AlienRace.AlienBackstoryDef>
+
+
+</Defs>

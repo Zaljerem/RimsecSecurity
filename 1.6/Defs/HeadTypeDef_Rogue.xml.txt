@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>RS_DefenderRogueHead</defName>
+    <graphicPath>Races/HeadNew/Defender/Defender_Rogue/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+ <HeadTypeDef ParentName="AverageBase">
+    <defName>RS_EnforcerRogueHead</defName>
+    <graphicPath>Races/HeadNew/Enforcer/Enforcer_Rogue/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+<HeadTypeDef ParentName="AverageBase">
+    <defName>RS_SentinelRogueHead</defName>
+    <graphicPath>Races/HeadNew/Sentinel/Sentinel_Rogue/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+
+</Defs>

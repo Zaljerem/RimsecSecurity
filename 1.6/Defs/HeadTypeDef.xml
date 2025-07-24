@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>RS_DefenderSecurityHead</defName>
+    <graphicPath>Races/HeadNew/Defender/Defender_Security/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>RS_DefenderForestHead</defName>
+    <graphicPath>Races/HeadNew/Defender/Defender_Forest/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>RS_DefenderDesertHead</defName>
+    <graphicPath>Races/HeadNew/Defender/Defender_Desert/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+ <HeadTypeDef ParentName="AverageBase">
+    <defName>RS_DefenderWinterHead</defName>
+    <graphicPath>Races/HeadNew/Defender/Defender_Winter/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+ <HeadTypeDef ParentName="AverageBase">
+    <defName>RS_EnforcerSecurityHead</defName>
+    <graphicPath>Races/HeadNew/Enforcer/Enforcer_Security/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>RS_EnforcerForestHead</defName>
+    <graphicPath>Races/HeadNew/Enforcer/Enforcer_Forest/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>RS_EnforcerDesertHead</defName>
+    <graphicPath>Races/HeadNew/Enforcer/Enforcer_Desert/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+ <HeadTypeDef ParentName="AverageBase">
+    <defName>RS_EnforcerWinterHead</defName>
+    <graphicPath>Races/HeadNew/Enforcer/Enforcer_Winter/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+<HeadTypeDef ParentName="AverageBase">
+    <defName>RS_SentinelSecurityHead</defName>
+    <graphicPath>Races/HeadNew/Sentinel/Sentinel_Security/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>RS_SentinelForestHead</defName>
+    <graphicPath>Races/HeadNew/Sentinel/Sentinel_Forest/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+  <HeadTypeDef ParentName="AverageBase">
+    <defName>RS_SentinelDesertHead</defName>
+    <graphicPath>Races/HeadNew/Sentinel/Sentinel_Desert/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+ <HeadTypeDef ParentName="AverageBase">
+    <defName>RS_SentinelWinterHead</defName>
+    <graphicPath>Races/HeadNew/Sentinel/Sentinel_Winter/Male_Average_Normal</graphicPath>
+    <gender>None</gender>
+    <eyeOffsetEastWest>(0.18, 0, 0.17)</eyeOffsetEastWest>
+  </HeadTypeDef>
+
+
+</Defs>

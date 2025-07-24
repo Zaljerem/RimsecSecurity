@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<Defs>
+
+ <HediffDef>
+  <defName>RSRogueExplosivePayload</defName>
+  <label>explosive payload</label>
+	<defaultLabelColor>(200, 0, 0)</defaultLabelColor>
+  <description>A rogue payload designed to explode on robot deactivation.</description>
+  <hediffClass>RimsecSecurity.HediffExplosivePayload</hediffClass>
+  <comps>    
+     <li Class="RimsecSecurity.HediffCompProperties_ExplosivePayload">
+    <explosionRadius>3.5</explosionRadius>
+    <damageDef>Bomb</damageDef>
+    <!--<damageAmount>100</damageAmount>
+    <armorPenetration>1.0</armorPenetration>-->
+    </li>
+  </comps>
+</HediffDef>
+
+
+</Defs>

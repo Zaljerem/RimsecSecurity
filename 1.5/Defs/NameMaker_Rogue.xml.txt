@@ -1,0 +1,84 @@
+<Defs>
+
+
+
+<RulePackDef>
+    <defName>RSPeacekeeperRogueSentinelNameGen</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=2)->[Adjective] [Noun]</li>
+	<li>r_name(p=0.3)->[Noun] [Numbers]</li>	
+	<li>r_name(p=0.1)->[Hex][Hex][Hex][Hex] [Hex][Hex][Hex][Hex]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Adjective</keyword>
+          <path>Peacekeeper/Rogue/Adjectives</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Noun</keyword>
+          <path>Peacekeeper/Rogue/Nouns</path>
+        </li>
+	 <li Class="Rule_File">
+          <keyword>Numbers</keyword>
+          <path>Peacekeeper/Rogue/Numbers</path>
+        </li>
+	 <li Class="Rule_File">
+          <keyword>Hex</keyword>
+          <path>Peacekeeper/Rogue/Hex</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+<RulePackDef>
+    <defName>RSPeacekeeperRogueEnforcerNameGen</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>r_name(p=0.1)->[Adjective] [Noun]</li>
+	<li>r_name(p=2)->[Noun] [Numbers]</li>
+	<li>r_name(p=0.1)->[Hex][Hex] [Hex][Hex]</li>
+	<li>r_name(p=0.5)->[Hex][Hex][Hex][Hex] [Hex][Hex][Hex][Hex]</li>
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>Adjective</keyword>
+          <path>Peacekeeper/Rogue/Adjectives</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Noun</keyword>
+          <path>Peacekeeper/Rogue/Nouns</path>
+        </li>
+	 <li Class="Rule_File">
+          <keyword>Numbers</keyword>
+          <path>Peacekeeper/Rogue/Numbers</path>
+        </li>
+	 <li Class="Rule_File">
+          <keyword>Hex</keyword>
+          <path>Peacekeeper/Rogue/Hex</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+<RulePackDef>
+    <defName>RSPeacekeeperRogueDefenderNameGen</defName>
+    <rulePack>
+      <rulesStrings>       
+	<li>r_name->[Hex][Hex] [Hex][Hex]</li>
+	<li>r_name(p=0.5)->[Hex][Hex][Hex][Hex] [Hex][Hex][Hex][Hex]</li>
+      </rulesStrings>
+      <rulesRaw>       
+	 <li Class="Rule_File">
+          <keyword>Hex</keyword>
+          <path>Peacekeeper/Rogue/Hex</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+
+
+</Defs>

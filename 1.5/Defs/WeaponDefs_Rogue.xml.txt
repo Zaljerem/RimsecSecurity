@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <ThingDef ParentName="RSPeacekeeperGunBase">
+    <defName>RSWeaponRDLG</defName>
+    <label>RDLG-20</label>
+    <description>A modified Defender Burst Laser Rifle for short to medium range engagements.</description>
+    <modExtensions>
+      <li Class="RimsecSecurity.RSPeacekeeperWeaponModExt"></li>
+    </modExtensions>
+    <graphicData>      
+      <texPath>Things/Weapons/RDLG-20</texPath>
+      <graphicClass>Graphic_Single</graphicClass>     
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+	<MarketValue>500</MarketValue>
+      <WorkToMake>20000</WorkToMake>
+      <Mass>4.4</Mass>
+      <AccuracyTouch>0.7</AccuracyTouch>
+      <AccuracyShort>0.75</AccuracyShort>
+      <AccuracyMedium>0.65</AccuracyMedium>
+      <AccuracyLong>0.55</AccuracyLong>
+      <RangedWeapon_Cooldown>1.4</RangedWeapon_Cooldown>
+    </statBases>
+    <!--<recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>-->
+    <comps>
+
+    </comps>
+    <costList>
+      <Steel>75</Steel>
+      <Plasteel>10</Plasteel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <thingSetMakerTags>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>RSRDLG20</li>
+      <!--<li>RSPeacekeeperGun</li>-->
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RSWeaponRDLGBullet</defaultProjectile>
+        <warmupTime>1</warmupTime>
+        <range>30</range>
+        <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>1.5</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>RSWeaponRDLGBullet</defName>
+    <label>charge shot</label>
+    <graphicData>
+      <texPath>Things/smallredlaserbolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>20</damageAmountBase>
+      <armorPenetrationBase>0.35</armorPenetrationBase>
+      <speed>70</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="RSPeacekeeperGunBase">
+    <defName>RSWeaponREHG</defName>
+    <label>REHG-22</label>
+    <description>A modified Enforcer Heavy Laser Minigun for short to medium range engagements.</description>
+    <modExtensions>
+      <li Class="RimsecSecurity.RSPeacekeeperWeaponModExt"></li>
+    </modExtensions>
+    <graphicData>      
+      <texPath>Things/Weapons/REHG-22</texPath>
+      <graphicClass>Graphic_Single</graphicClass>    
+      <drawSize>1.2</drawSize>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+	<MarketValue>750</MarketValue>
+      <WorkToMake>25000</WorkToMake>
+      <Mass>12</Mass>
+      <AccuracyTouch>0.50</AccuracyTouch>
+      <AccuracyShort>0.60</AccuracyShort>
+      <AccuracyMedium>0.55</AccuracyMedium>
+      <AccuracyLong>0.45</AccuracyLong>
+      <RangedWeapon_Cooldown>2.1</RangedWeapon_Cooldown>
+    </statBases>
+    <!--<recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>-->
+    <costList>
+      <Steel>150</Steel>
+      <Plasteel>15</Plasteel>
+      <ComponentIndustrial>10</ComponentIndustrial>
+    </costList>
+    <thingSetMakerTags>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>RSRELG22</li>
+      <!--<li>RSPeacekeeperGun</li>-->
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RSWeaponREHGBullet</defaultProjectile>
+        <warmupTime>2</warmupTime>
+        <range>35</range>
+        <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+        <burstShotCount>14</burstShotCount>
+        <soundCast>Shot_ChargeRifle</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>RSWeaponREHGBullet</defName>
+    <label>charge shot</label>
+    <graphicData>
+      <texPath>Things/smallredlaserbolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>8</damageAmountBase>
+      <armorPenetrationBase>0.10</armorPenetrationBase>
+      <speed>75</speed>
+    </projectile>
+  </ThingDef>
+
+  <ThingDef ParentName="RSPeacekeeperGunBase">
+    <defName>RSWeaponRSHAG</defName>
+    <label>RSHAG-1</label>
+    <description>A modified heavy assault gun used by Sentinels in a supporting role whether it is a in an offensive or defensive capacity.</description>
+    <modExtensions>
+      <li Class="RimsecSecurity.RSPeacekeeperWeaponModExt">
+        <weightType>heavy</weightType>
+      </li>
+    </modExtensions>
+    <graphicData>
+      <texPath>Things/Weapons/RSHAG-1</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>2.0</drawSize>
+    </graphicData>
+    <soundInteract>Interact_ChargeRifle</soundInteract>
+    <statBases>
+	<MarketValue>1000</MarketValue>
+      <WorkToMake>80000</WorkToMake>
+      <Mass>20</Mass>
+      <AccuracyTouch>0.75</AccuracyTouch>
+      <AccuracyShort>0.95</AccuracyShort>
+      <AccuracyMedium>0.95</AccuracyMedium>
+      <AccuracyLong>0.85</AccuracyLong>
+      <RangedWeapon_Cooldown>2.3</RangedWeapon_Cooldown>
+    </statBases>
+    <!--<recipeMaker>
+      <researchPrerequisite>ChargedShot</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <recipeUsers Inherit="False">
+        <li>FabricationBench</li>
+      </recipeUsers>
+    </recipeMaker>-->
+    <costList>
+      <Steel>350</Steel>
+      <Plasteel>20</Plasteel>
+      <ComponentIndustrial>25</ComponentIndustrial>
+    </costList>
+    <thingSetMakerTags>
+    </thingSetMakerTags>
+    <weaponTags>
+      <li>RSRSHAG1</li>
+    <!--<li>RSPeacekeeperGun</li>-->
+    </weaponTags>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>RSWeaponRSHAGBullet</defaultProjectile>
+        <warmupTime>1.7</warmupTime>
+        <range>34</range>
+        <ticksBetweenBurstShots>60</ticksBetweenBurstShots>
+        <burstShotCount>3</burstShotCount>
+        <soundCast>RSShot_Shag</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <ThingDef ParentName="BaseBullet">
+    <defName>RSWeaponRSHAGBullet</defName>
+    <label>charge shot</label>
+    <graphicData>
+      <texPath>Things/redlaserbolt</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <damageDef>Bullet</damageDef>
+      <damageAmountBase>30</damageAmountBase>
+      <stoppingPower>3</stoppingPower>
+      <speed>120</speed>
+      <armorPenetrationBase>0.65</armorPenetrationBase>
+    </projectile>
+  </ThingDef>
+
+
+
+</Defs>
