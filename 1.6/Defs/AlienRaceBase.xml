@@ -370,7 +370,8 @@
       <ArmorRating_Blunt>0.25</ArmorRating_Blunt>
       <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
       <RestRateMultiplier>2.0</RestRateMultiplier>
-      <ImmunityGainSpeed>10</ImmunityGainSpeed>
+      <ImmunityGainSpeed>10</ImmunityGainSpeed>	
+	<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
     </statBases>
     <race>
       <canBeVacuumBurnt>false</canBeVacuumBurnt>

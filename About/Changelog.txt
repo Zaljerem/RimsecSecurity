@@ -3,3 +3,5 @@
 1.0.0 - 4/20/2025 - updated to 1.6
 
 1.0.1 - 7/9/2025 - fix to SOS2 compat
+
+1.0.2 - 7/26/2025 - added vacuum resistance
