@@ -19,7 +19,7 @@ public class PeacekeeperUtility
 
 	public static Thing GetEmptyChargeStation(Pawn pawn)
 	{
-		if (pawn.Faction == Faction.OfPlayerSilentFail)
+		if (pawn.Faction == Faction.OfPlayerSilentFail && IsPeacekeeper(pawn))
 		{
 			List<ThingDef> ValidBeds = (pawn.def as ThingDef_AlienRace)?.alienRace?.generalSettings?.validBeds?.Select(entry => entry)?.ToList();
 			return (from x in pawn.Map?.listerBuildings.allBuildingsColonist.OfType<Building_ChargeStation>()
@@ -33,7 +33,7 @@ public class PeacekeeperUtility
 
 	public static bool IsInChargeStation(Pawn pawn)
 	{
-		if (pawn != null && pawn.Map != null)
+		if (pawn != null && pawn.Map != null && IsPeacekeeper(pawn))
 		{
 			List<ThingDef> ValidBeds = (pawn.def as ThingDef_AlienRace)?.alienRace?.generalSettings?.validBeds?.Select(entry => entry)?.ToList();
 			return pawn.Position.GetThingList(pawn.Map).Any((Thing x) => ValidBeds.Contains(x.def) && ((Building_ChargeStation)x).CurrentRobot == pawn);
