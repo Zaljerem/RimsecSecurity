@@ -20,6 +20,8 @@ public class Main : Mod
         Patch_TryAppendRelationsWithColonistsInfo.ApplyPatch(harmony);
         Patch_TryAppendRelationsWithColonistsInfoTwo.ApplyPatch(harmony);
         PatchesCompatibility.ExecuteCompatibilityPatches(harmony);
+        Patch_UsefulMarksMarkerConditionRelations.Apply(harmony);
+
         if (ModSettings.hidePeacekeepersFromColonistBar)
         {
             MethodInfo original = AccessTools.Method(typeof(ColonistBar), "CheckRecacheEntries");

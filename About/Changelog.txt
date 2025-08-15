@@ -5,3 +5,5 @@
 1.0.1 - 7/9/2025 - fix to SOS2 compat
 
 1.0.2 - 7/26/2025 - added vacuum resistance
+
+1.0.3 - 8/15/2025 - fix for Useful Marks
