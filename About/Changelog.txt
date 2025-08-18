@@ -7,3 +7,5 @@
 1.0.2 - 7/26/2025 - added vacuum resistance
 
 1.0.3 - 8/15/2025 - fix for Useful Marks
+
+1.0.4 - 8/18/2025 - added support for different charging stations via validBeds, thanks 5like!
