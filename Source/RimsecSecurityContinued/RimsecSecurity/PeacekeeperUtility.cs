@@ -19,10 +19,11 @@ public class PeacekeeperUtility
 
 	public static Thing GetEmptyChargeStation(Pawn pawn)
 	{
-		if (pawn.Faction == Faction.OfPlayerSilentFail)
+		if (pawn.Faction == Faction.OfPlayerSilentFail && IsPeacekeeper(pawn))
 		{
+			List<ThingDef> ValidBeds = (pawn.def as ThingDef_AlienRace)?.alienRace?.generalSettings?.validBeds?.Select(entry => entry)?.ToList();
 			return (from x in pawn.Map?.listerBuildings.allBuildingsColonist.OfType<Building_ChargeStation>()
-				where (x.CurrentRobot == null || x.CurrentRobot == pawn) && x.def == pawn.def?.GetModExtension<RSPeacekeeperModExt>()?.stationDef && pawn.Map.reservationManager.CanReserve(pawn, x)
+				where (x.CurrentRobot == null || x.CurrentRobot == pawn) && ValidBeds.Contains(x.def) && pawn.Map.reservationManager.CanReserve(pawn, x)
 				select x into station
 				orderby pawn.Position.DistanceTo(station.Position)
 				select station).FirstOrDefault();
@@ -32,9 +33,10 @@ public class PeacekeeperUtility
 
 	public static bool IsInChargeStation(Pawn pawn)
 	{
-		if (pawn != null && pawn.Map != null)
+		if (pawn != null && pawn.Map != null && IsPeacekeeper(pawn))
 		{
-			return pawn.Position.GetThingList(pawn.Map).Any((Thing x) => x.def == pawn.def.GetModExtension<RSPeacekeeperModExt>().stationDef && ((Building_ChargeStation)x).CurrentRobot == pawn);
+			List<ThingDef> ValidBeds = (pawn.def as ThingDef_AlienRace)?.alienRace?.generalSettings?.validBeds?.Select(entry => entry)?.ToList();
+			return pawn.Position.GetThingList(pawn.Map).Any((Thing x) => ValidBeds.Contains(x.def) && ((Building_ChargeStation)x).CurrentRobot == pawn);
 		}
 		return false;
 	}
