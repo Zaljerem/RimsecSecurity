@@ -304,17 +304,17 @@
         <whiteApparelList>
         </whiteApparelList>
 
-<blackXenotypeList MayRequire="Ludeon.RimWorld.Biotech">
-  <li>Dirtmole</li>
-  <li>Genie</li>
-<li>Hussar</li>
-<li>Sanguophage</li>
-<li>Neanderthal</li>
-<li>Pigskin</li>
-<li>Impid</li>
-<li>Waster</li>
-<li>Yttakin</li>
-<li>Highmate</li>
+<blackXenotypeList>
+  <li MayRequire="Ludeon.RimWorld.Biotech">Dirtmole</li>
+  <li MayRequire="Ludeon.RimWorld.Biotech">Genie</li>
+<li MayRequire="Ludeon.RimWorld.Biotech">Hussar</li>
+<li MayRequire="Ludeon.RimWorld.Biotech">Sanguophage</li>
+<li MayRequire="Ludeon.RimWorld.Biotech">Neanderthal</li>
+<li MayRequire="Ludeon.RimWorld.Biotech">Pigskin</li>
+<li MayRequire="Ludeon.RimWorld.Biotech">Impid</li>
+<li MayRequire="Ludeon.RimWorld.Biotech">Waster</li>
+<li MayRequire="Ludeon.RimWorld.Biotech">Yttakin</li>
+<li MayRequire="Ludeon.RimWorld.Biotech">Highmate</li>
 </blackXenotypeList>
 
  <blackGeneList>

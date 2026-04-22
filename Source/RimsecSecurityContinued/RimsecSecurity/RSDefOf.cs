@@ -30,6 +30,10 @@ internal class RSDefOf
 
 	public static ThingDef RSPowerCell;
 
+	//public static ThoughtDef ButcheredHumanlikeCorpse;
+
+	//public static ThoughtDef KnowButcheredHumanlikeCorpse;
+
 	public static JobDef RSRecharge;
 
 	public static JobDef RSRescueToChargeStation;
