@@ -17,3 +17,5 @@
 1.0.7 - 4/11/2026 - fix: errors when used without Biotech
 
 1.0.8 - 4/21/2026 - minor fix
+
+1.0.9 - 8/3/2026 - compatibility for RimTalk (disable robot chatter), prevent growth moments for robots, remove Caring and Intellectual worktypes, fix humanlike butchery and observed corpse history/thoughts

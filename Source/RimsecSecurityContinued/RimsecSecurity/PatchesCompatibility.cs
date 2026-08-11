@@ -10,6 +10,7 @@ internal static class PatchesCompatibility
 	public static Assembly hygieneAssembly;
     public static Assembly hospitalityAssembly;
     public static Assembly orphanageAssembly;
+	public static Assembly rimtalkAssembly;
 
     public static void ExecuteCompatibilityPatches(Harmony harmony)
 	{
@@ -23,8 +24,26 @@ internal static class PatchesCompatibility
 			harmony.Patch(original, prefix);
 		}
 
-		// Hospitality ValidGuest patch
-		hospitalityAssembly = PeacekeeperUtility.GetAssemblyFromString("hospitality");
+		// RimTalk IsTalkEligible patch
+		rimtalkAssembly = PeacekeeperUtility.GetAssemblyFromString("rimtalk");
+		if (rimtalkAssembly != null)
+		{
+			Log.Message("[RimsecSecurity] Patching RimTalk IsTalkEligible method for Peacekeeper check");
+
+			MethodInfo validTalkMethod = AccessTools.Method(rimtalkAssembly.GetType("RimTalk.Util.PawnUtil"), "IsTalkEligible");
+
+			if (validTalkMethod == null)
+			{
+				Log.Error("Failed to find RimTalk.Util.PawnUtil.IsTalkEligible method!");
+				return;
+			}
+
+			HarmonyMethod prefixRT = new HarmonyMethod(typeof(RimTalkPatches), nameof(RimTalkPatches.IsTalkEligible_Prefix));
+			harmony.Patch(validTalkMethod, prefix: prefixRT);
+		}
+
+            // Hospitality ValidGuest patch
+            hospitalityAssembly = PeacekeeperUtility.GetAssemblyFromString("hospitality");
 		if (hospitalityAssembly != null)
 		{
 			Log.Message("[RimsecSecurity] Patching Hospitality ValidGuest method for Peacekeeper check");

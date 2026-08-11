@@ -6,7 +6,7 @@
     <li>1.5</li>
 	<li>1.6</li>
   </supportedVersions>
-<modVersion IgnoreIfNoMatchingField="True">1.0.8</modVersion>
+<modVersion IgnoreIfNoMatchingField="True">1.0.9</modVersion>
   <modDependencies>
     <li>
       <packageId>brrainz.harmony</packageId>
@@ -24,6 +24,7 @@
 <li>MemeGoddess.SearchAndDestroy</li>
 <li>Owlchemist.Tacticowl</li>
 <li>kentington.saveourship2</li>
+<li>cj.rimtalk</li>
 </loadAfter>
   <packageId>zal.rimsecsecurity</packageId>
 	<description>

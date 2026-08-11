@@ -15,6 +15,8 @@
       <li>Commoner</li>
       <li>ManualDumb</li>
       <li>Social</li>
+	  <li>Caring</li>
+	  <li>Intellectual</li>
     </workDisables>
     <skillGains>
       <Shooting>8</Shooting>
@@ -36,6 +38,8 @@
       <li>Commoner</li>
       <li>ManualDumb</li>
       <li>Social</li>
+	  <li>Caring</li>
+	  <li>Intellectual</li>
     </workDisables>
     <skillGains>
       <Shooting>12</Shooting>
@@ -53,23 +57,12 @@
       <li>RSPeacekeeperBackstoryChildSentinel</li>
     </spawnCategories>
     <bodyTypeGlobal>Male</bodyTypeGlobal>
-    <workDisables>
-      <!--<li>Animals</li>
-      <li>Crafting</li>
-      <li>Cooking</li>
-      <li>Firefighting</li>
-      <li>Commoner</li>
-      <li>Hunting</li>
-
-      <li>PlantWork</li>
-      <li>Mining</li>
-      <li>Artistic</li>
-      <li>Cleaning</li>
-      <li>Intellectual</li>-->
-      <!--<li>ManualSkilled</li>-->
+    <workDisables>     
       <li>Commoner</li>
       <li>ManualDumb</li>
       <li>Social</li>
+	  <li>Caring</li>
+	  <li>Intellectual</li>
     </workDisables>
     <skillGains>
       <Shooting>15</Shooting>
